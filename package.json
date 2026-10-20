@@ -1,0 +1,26 @@
+{
+  "name": "playwright_from_scratch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "webTests": "npx playwright test --grep=@Web --project=Chrome",
+    "apiTests": "npx playwright test --grep=@API --project=Chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@azure/identity": "^4.13.1",
+    "@azure/playwright": "^1.1.6",
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4",
+    "allure-playwright": "^3.13.0",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^12.9.0",
+    "exceljs": "^4.4.0"
+  }
+}
